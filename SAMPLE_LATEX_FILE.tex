@@ -1,0 +1,245 @@
+\section{Name of the Experiment}
+ To study various types of adders design using VHDL.\\
+ Design ,simulate and implement Half adder and Full adder using 
+ dataflow,behavioral
+ and structural modeling in VHDL.
+ 
+
+\section{Theory}
+\textbf{1) Half adder} is a combinational circuit which adds two numbers and produces
+sum and carry. \\
+sum,s = a xor b and carry,c = a and b.\\
+\textbf{2) Full adder} is a combinational circuit which adds three one bit numbers
+and produces sum(s) and carry(cout).
+It takes three inputs a,b,cin and output s and cout.\\
+s=a xor b xor cin and cout=a.b or b.cin or a.cin
+
+\section{Coding Techniques used}
+\textbf{1) Dataflow Modeling} is a concurrent style of modeling in VHDL.It describes the architecture of the entity under design without describing its components in terms of flow of data from input towards output.In the experiment we have implemented half adder and full adder using data flow modeling.\\
+\textbf{2) Behavioral Modeling} specifies the behavior of an entity as a set of statements that are executed sequentially in the specified order.The set of sequential statements specified inside a process statement do not explicitly specify the structure of the entity but merely specifies its functionality.A process statement is a concurrent statement that can appear within an architecture.In this experiment we have implemented half adder and full adder using behavioral modeling.\\
+\textbf{3) Structural modeling} describes a circuit in terms of components and its interconnection. It is very good to describe complex digital systems through a set of components in a hierarchical fashion.In this experiment we are using structural modeling to implement full adder using two half adders.
+
+\section{Simulation and Results}
+\subsection{Half Adder using Dataflow}
+\begin{figure}[H]
+   \includegraphics[width = \linewidth]{Figures/hadataflowrtl.png} 
+\centering
+\caption{Schematic of the Half adder using Dataflow modeling}
+\label{figure:1}
+\end{figure}
+\begin{figure}[H]
+\centering
+\includegraphics[width = \textwidth]{Figures/hadataflowprojsum.png}
+\caption{Project Summary of the Half adder using Dataflow modeling}
+\label{figure:2}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[width = \textwidth]{Figures/hadatflowsimu.png}
+\caption{Simulation of the Half adder using Dataflow modeling}
+\label{figure:3}
+\end{figure}
+
+\subsection{Half Adder using Behavioral}
+ \begin{figure}[H]
+   \includegraphics[width = \linewidth]{Figures/habehavische.png} 
+\centering
+\caption{Schematic of the Half adder using Behavioral modeling}
+\label{figure:1}
+\end{figure}
+\begin{figure}[H]
+\centering
+\includegraphics[width = \textwidth]{Figures/habehaprojsum.png}
+\caption{Project Summary of the Half adder using Behavioral modeling}
+\label{figure:2}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[width = \textwidth]{Figures/habehasimu.png}
+\caption{Simulation of the Half adder using Behavioral modeling}
+\label{figure:3}
+\end{figure}
+
+
+\subsection{Full adder using Data flow}
+\begin{figure}[H]
+   \includegraphics[width = \linewidth]{Figures/fulldata.png} 
+\centering
+\caption{Schematic of the Full adder Using dataflow modeling}
+\label{figure:1}
+\end{figure}
+\begin{figure}[H]
+\centering
+\includegraphics[width = \textwidth]{Figures/fulldataflowprojsum.png}
+\caption{Project Summary of the Full adder using dataflow modeling}
+\label{figure:2}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[width = \textwidth]{Figures/fulldatasimu.png}
+\caption{Simulation of the Full adder using dataflow modeling}
+\label{figure:3}
+\end{figure}
+
+\subsection{Full Adder using Behavioral Model}
+ \begin{figure}[H]
+   \includegraphics[width = \linewidth]{Figures/fullbehasche.png} 
+\centering
+\caption{Schematic of the Full adder using Behavioral modeling}
+\label{figure:1}
+\end{figure}
+\begin{figure}[H]
+\centering
+\includegraphics[width = \textwidth]{Figures/fullbehaprojsum.png}
+\caption{Project Summary of the Full adder using Behavioral modeling}
+\label{figure:2}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[width = \textwidth]{Figures/fullbehasimu.png}
+\caption{Simulation of the Full adder using Behavioral modeling}
+\label{figure:3}
+\end{figure}
+
+\subsection{Full Adder Using Structural Modeling}
+ \begin{figure}[H]
+   \includegraphics[width = \linewidth]{Figures/fullstructuralsche.png} 
+\centering
+\caption{Schematic of the Full adder using Structural modeling}
+\label{figure:1}
+\end{figure}
+\begin{figure}[H]
+\centering
+\includegraphics[width = \textwidth]{Figures/fullstructuralprojsum.png}
+\caption{Project Summary of the Full adder using Structural modeling}
+\label{figure:2}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[width = \textwidth]{Figures/fullstructuralsimu.png}
+\caption{Simulation of the Full adder using Structural modeling}
+\label{figure:3}
+\end{figure}
+
+% \subsection{Half Adder using Dataflow}
+% Repeat all the results as in previous case and do it for all the codes. 
+
+
+% \subsection{Half Adder using Dataflow}
+% \begin{figure}[htp]
+% \centering
+% \includegraphics[width = \textwidth]{Exp1_1_Sch.PNG}
+% \caption{Schematic of the Half added using Dataflow modeling}
+% \label{figure:1}
+% \end{figure}
+
+% \begin{figure}[htp]
+% \centering
+% \includegraphics[width = \textwidth]{Exp1_1_Summary.PNG}
+% \caption{Project Summary of the Half added using Dataflow modeling}
+% \label{figure:2}
+% \end{figure}
+
+
+% \begin{figure}[htp]
+% \centering
+% \includegraphics[width = \textwidth]{Exp1_1_Testbench.PNG}
+% \caption{Simulation of the Half added using Dataflow modeling}
+% \label{figure:3}
+% \end{figure}
+
+% \subsection{Half Adder using Dataflow}
+% Repeat all the results as in previous case and do it for all the codes. 
+
+
+% \subsection{Half Adder using Dataflow}
+% \begin{figure}[htp]
+% \centering
+% \includegraphics[width = \textwidth]{Exp1_1_Sch.PNG}
+% \caption{Schematic of the Half added using Dataflow modeling}
+% \label{figure:1}
+% \end{figure}
+
+% \begin{figure}[htp]
+% \centering
+% \includegraphics[width = \textwidth]{Exp1_1_Summary.PNG}
+% \caption{Project Summary of the Half added using Dataflow modeling}
+% \label{figure:2}
+% \end{figure}
+
+
+% \begin{figure}[htp]
+% \centering
+% \includegraphics[width = \textwidth]{Exp1_1_Testbench.PNG}
+% \caption{Simulation of the Half added using Dataflow modeling}
+% \label{figure:3}
+% \end{figure}
+
+% \subsection{Half Adder using Dataflow}
+% Repeat all the results as in previous case and do it for all the codes. 
+
+
+% \subsection{Half Adder using Dataflow}
+% \begin{figure}[htp]
+% \centering
+% \includegraphics[width = \textwidth]{Exp1_1_Sch.PNG}
+% \caption{Schematic of the Half added using Dataflow modeling}
+% \label{figure:1}
+% \end{figure}
+
+% \begin{figure}[htp]
+% \centering
+% \includegraphics[width = \textwidth]{Exp1_1_Summary.PNG}
+% \caption{Project Summary of the Half added using Dataflow modeling}
+% \label{figure:2}
+% \end{figure}
+
+
+% \begin{figure}[htp]
+% \centering
+% \includegraphics[width = \textwidth]{Exp1_1_Testbench.PNG}
+% \caption{Simulation of the Half added using Dataflow modeling}
+% \label{figure:3}
+% \end{figure}
+
+% \subsection{Half Adder using Dataflow}
+% Repeat all the results as in previous case and do it for all the codes. 
+
+
+
+\section{Summary}
+In this experiment, we had to design, implement and stimulate half adders and full adders using modeling or coding techniques which are dataflow modeling, behavioral modeling and structural modeling.
+We have made a table for comparing Area and Power Requirements for different kinds of circuits.\\
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|l|c|r|}
+\hline
+\textbf{Name of the Entity} & \textbf{No. of LUT used} & \textbf{Total On chip Power}\\
+\hline
+Half Adder using Dataflow & 1 & 0.796W \\ \hline
+Half Adder using Behavioural & 1 & 0.285W \\ \hline
+Full Adder using Dataflow & 1 & 1.035W \\ \hline
+Full Adder using Behavioural & 1 & 0.172W \\ \hline
+Full Adder using Structural & 1 & 1.035W \\ \hline
+\end{tabular}
+\caption{Comparison Table of Area and power requirements for different kinds of adders.}
+\label{tab:1}
+\end{table}
+
+
+
+
+
+
+
